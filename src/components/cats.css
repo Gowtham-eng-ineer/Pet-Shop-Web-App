@@ -1,0 +1,17 @@
+.catCard {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center; /* Center text and image */
+  }
+  
+  .catImage {
+    width: 80px; /* Adjust the width to your preference */
+    height: 80px; /* Adjust the height to your preference */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; /* Create a circular effect */
+    margin-bottom: 10px;
+  }
+  
